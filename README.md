@@ -6,7 +6,9 @@ Node.js + Three.js + Twitter = Realtime visualization created for Nuit Blanche O
 
 Created in collaboration with [@jackpine](https://twitter.com/JackpineCo) and [@taulantsulko](https://twitter.com/TaulantSulko)
 
-See it in action (hopefully) [here](http://rmill.ca:8080/) (warning, `#selfie` hashtag is sometimes NSWF)
+[See it in action](http://rmill.ca:8080/) (hopefully)
+
+WARNING, `#selfie` hashtag is sometimes NSWF
 
 ## Instalation
 
