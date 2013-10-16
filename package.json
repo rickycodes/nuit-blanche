@@ -1,0 +1,26 @@
+{
+  "name": "Nuit-Blanche",
+  "version": "0.0.1",
+  "description": "Node.js + Three.js twitter realtime visualization for Ottawa, ON. Nuit Blanche 2013",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.3.7",
+    "jade": "~0.35.0",
+    "ntwitter": "~0.5.0",
+    "request": "~2.27.0",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"LOL tests!!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmillr/nuit-blanche.git"
+  },
+  "author": "Ricky Miller",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/rmillr/nuit-blanche/issues"
+  }
+}
