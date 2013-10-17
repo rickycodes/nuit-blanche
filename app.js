@@ -94,4 +94,4 @@ io.sockets.on('connection', function (socket) {
 
 server.listen(conf.port)
 
-console.log('app started on ' + conf.port)
+console.log('app started on http://' + conf.host + ':' + conf.port)

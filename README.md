@@ -19,7 +19,7 @@ npm install
 node app.js
 ```
 
-You'll have to modify config.js and init.js (depending) to get it working for your enviroment ;)
+You'll have to rename config.js.sample → config.js modify it AND init.js (depending) to get it working for your enviroment ;)
 
 Enjoy
 
