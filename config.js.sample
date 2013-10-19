@@ -1,6 +1,6 @@
 var config = {}
 
-config.track = '#nature #breakfast #macro #food #instalike #swag #fun #friends'
+config.track = '#nyc, #nature, #food, #instalike, #swag, #fun, #friends'
 config.img_path = 'public/img/'
 config.del = true
 config.host = 'localhost'
