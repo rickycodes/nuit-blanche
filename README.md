@@ -8,8 +8,6 @@ Created in collaboration with [@jackpine](https://twitter.com/JackpineCo) and [@
 
 [See it in action](http://rmill.ca:8080/) (hopefully)
 
-WARNING, `#selfie` hashtag is sometimes NSWF
-
 ## Instalation
 
 Clone away, jump into the projects and then:
@@ -29,7 +27,6 @@ Enjoy
 
 * [✓] Twitter
 * [✓] Instagram
-* Too many uckers, uckin' up my Shii—
 * [ ] CloudApp
 * [ ] Droplr
 * [ ] img.ly
@@ -39,8 +36,7 @@ Enjoy
 * [ ] yFrog
 * [ ] imgur?
 * [ ] Skydrive (sdrv.ms)
-* Videos? ¯\_(ツ)_/¯
-* [ ] Vine ? https://vine.co/v/h7MvIEIetae
+* [ ] Vine
 * [ ] YouTube
 
 * Add Tests!?
