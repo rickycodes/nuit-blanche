@@ -10,7 +10,7 @@ Created in collaboration with [@jackpine](https://twitter.com/JackpineCo) and [@
 
 ## Instalation
 
-Clone away, jump into the projects and then:
+Clone away, jump into the project and then:
 
 ```
 npm install
