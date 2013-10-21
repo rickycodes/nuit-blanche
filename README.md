@@ -1,6 +1,6 @@
 ## Nuit Blanche
 
-![OH SHI—](http://i.imgur.com/tJy01aG.png)
+![OH SHI—](http://i.imgur.com/Zlb4mE5.png)
 
 Node.js + Three.js + Twitter = Realtime visualization created for Nuit Blanche Ottawa, ON.
 
