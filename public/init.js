@@ -177,6 +177,9 @@ var NuitBlanche = (function() {
     camera.updateProjectionMatrix();
 
     renderer.setSize(window.innerWidth, window.innerHeight);
+
+    starsCanvas.setAttribute('width', window.innerWidth);
+    starsCanvas.setAttribute('height', window.innerWidth);
   }
 
   function onTouchStart(event) {
@@ -298,6 +301,7 @@ var NuitBlanche = (function() {
         var planet = new Planet(group, texture);
         planet.update(0.4,0.02);
         planets.push(planet);
+        socket.emit('delete', {'url': url});
       });
     }
   }
@@ -311,7 +315,7 @@ var NuitBlanche = (function() {
       }
     });
 
-    if( planets.length >= 30) {
+    if(planets.length >= 30) {
       explode();
       return;
     }

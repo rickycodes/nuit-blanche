@@ -40,7 +40,10 @@ Enjoy
 * [ ] YouTube
 
 * Add Tests!?
-* Move starfield into Three.js 
+* Move starfield into Three.js
+* Clean up code (it's messy right now)
+* Better variable naming/convention
+* Give credit to external sources
 
 ## Notes
 

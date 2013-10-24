@@ -11,9 +11,9 @@ var express = require('express')
   , https = require('https')
   , conf = require('./config')
 
-if(conf.twitter.consumer_key == '') {
+if(conf.twitter.consumer_key === '') {
   console.log('please fill out config.js first!');
-  process.exit();
+  process.exit(1);
 }
 
 var i = 1
@@ -40,17 +40,7 @@ function requestURL( url, data, img_name ) {
       console.log(url)
     }
     if(!error && response.statusCode === 200) {
-
       io.sockets.emit('add planet', {tweet: data, img: img_name})
-      i++
-
-      if(del) {
-        // this fails occaisionally
-        setTimeout(function() {
-          fs.unlink(img_path + img_name, function() {})
-          console.log('deleting: ' + img_name)
-        }, 20000)
-      }
     }
   }).pipe(fs.createWriteStream(img_path + img_name))
 }
@@ -90,6 +80,14 @@ t.stream('statuses/filter', {'track':track}, function(stream) {
 
 io.sockets.on('connection', function (socket) {
   socket.emit('init','application (re)started')
+  socket.on('delete', function(data) {
+    i++
+    if(del) {
+      fs.unlink(img_path + data.url, function() {
+        console.log('image deleted');
+      })
+    }
+  })
 })
 
 server.listen(conf.port)
