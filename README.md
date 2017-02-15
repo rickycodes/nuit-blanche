@@ -6,8 +6,6 @@ Node.js + Three.js + Twitter = Realtime visualization created for Nuit Blanche O
 
 Created in collaboration with [@jackpine](https://twitter.com/JackpineCo) and [@taulantsulko](https://twitter.com/TaulantSulko)
 
-[See it in action](http://rmill.ca:8080/)
-
 ## Instalation
 
 Clone away, jump into the project and then:
