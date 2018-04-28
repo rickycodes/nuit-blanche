@@ -1,5 +1,7 @@
 ## Nuit Blanche
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rickycodes/nuit-blanche.svg)](https://greenkeeper.io/)
+
 ![OH SHI—](http://i.imgur.com/Zlb4mE5.png)
 
 Node.js + Three.js + Twitter = Realtime visualization created for Nuit Blanche Ottawa, ON.
